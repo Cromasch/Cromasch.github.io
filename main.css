@@ -6,8 +6,8 @@
 
 }
 
-a {
-
+.wzepois:link, .wzepois:visited {
+    color: white;
     text-decoration: none;
 }
 
@@ -16,6 +16,151 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
 }
+
+.hautDePage>h1{
+    font-family: "Liberation Sans", Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: justify;
+    margin-left: 685px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.hautDePage>h2{
+    font-family: "Liberation Sans", Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: justify;
+    margin-left: 98px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 34px;
+    text-decoration: underline;
+    text-decoration-color:black;
+    text-decoration-thickness: 1px;
+}
+
+
+
+.header1{
+    margin-right: 50px;
+}
+
+.header2{
+    margin-right: 30px;
+}
+
+.header3{
+    margin-right: 120px;
+}
+
+.header4{
+    margin-right: 250px;
+}
+
+.header5{
+    margin-right: 20px;
+}
+
+.header6{
+    margin-right: 76px;
+}
+
+.header7{
+    margin-right: 100px;
+}
+
+.header8{
+    margin-right: 50px;
+}
+
+.hautDePage>header{
+    margin-left: 100px;
+    margin-right: 200px;
+
+}
+
+.twitterMieux>h1{
+    font-family: "Liberation Sans", Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+
+
+}
+
+.soundExperience>h1{
+    font-family: "Liberation Sans", Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+
+}
+
+.soundExperience>audio{
+    width: 200px;
+    height: 30px;
+
+
+}
+
+.soundExperience>p{
+    font-family: "Liberation Sans", Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: cyan;
+    -webkit-text-stroke: 0.5px black;
+    text-decoration: underline;
+
+
+}
+
+
+
+.entreeJournal{
+    padding-bottom: 40px;
+
+}
+
+.entreeJournal>h1{
+    font-family: "Liberation Sans", Helvetica, sans-serif;
+    font-size: 17px;
+    font-style:italic;
+    font-weight:bold;
+
+
+
+}
+
+.entreeJournal>p{
+    text-decoration: overline;
+    text-decoration: underline;
+    font-family: "Liberation Sans", Helvetica, sans-serif;
+    font-weight: light;
+    font-size: 12px;
+
+
+
+}
+
+.entreeJournal>img{
+    width: 140px;
+    height: 140px;
+
+}
+
+.pageBase{
+    padding-left: 100px;
+    padding-top:40px;
+
+
+}
+
+
 
 
 

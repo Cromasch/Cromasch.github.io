@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>mon site</title>
+    <meta name="description" content="ceci cela">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<div class="hautDePage">
+
+<h1 >
+    <a href="index.html" class="wzepois">
+    wzepois
+    </a class="wzepois">
+</h1 >
+
+<header>
+
+        <a href="indexLove.html" class="header1">
+            twitter en mieux 
+        </a>
+ 
+
+        <a href="indexLove.html" class="header2">
+            at the end 
+        </a>
+
+        <a href="indexLove.html" class="header3">
+            why 
+        </a>
+
+        <a href="indexLove.html" class="header4">
+            passion
+        </a>
+
+        <a href="indexLove.html" class="header5">
+            donc quoi ?
+        </a>
+
+        <a href="indexLove.html" class="header6">
+            adieu
+        </a>
+
+        <a href="indexLove.html" class="header7">
+            marcel moulin
+        </a>
+
+        <a href="indexLove.html" class="header8">
+            sound experience
+        </a>
+
+
+</header>
+
+</div class="hautDePage">
