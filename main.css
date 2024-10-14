@@ -268,6 +268,41 @@ a:hover {
 }
 /*-------------------------------------------------------------------------------------*/
 
+.AtTheEndPage{
+    background-color: black;
+
+
+
+
+}
+
+.AtTheEnd>h1{
+    font-family: "Georgia", Helvetica, sans-serif;
+    width: 46vw;
+    letter-spacing: 0.8vw;
+    font-weight: 700;
+
+    color: white;
+    font-size: 20vh;
+    margin-left: 7vw;
+    padding: 3vw;
+    border: dashed 4px rgb(255, 255, 255) ;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------*/
+
 
 /*indexLove*/
 
