@@ -421,3 +421,89 @@ a:hover {
 }
 
 /*-------------------------------------------------------------------------------------*/
+
+.kiffeur{
+    margin-bottom: 75px;
+}
+
+.kiffeur>h1{
+    font-family: "Impact", Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.entreeKiff{
+    padding: 20px;
+    padding-bottom: 40px;
+
+    width:fit-content;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    display:inline-table;
+    
+
+}
+
+.entreeKiff>h1{
+    font-family: "Impact", Helvetica, sans-serif;
+    font-size: 23px;
+    font-style:italic;
+    font-weight:bold;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: white;
+}
+
+.entreeKiff>p{
+    font-family: "Impact", Helvetica, sans-serif;
+    font-weight: light;
+    font-size: 14px;
+    
+    width: 400px;
+    line-height:15px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+}
+
+.entreeKiff>p:hover{
+    color: rgb(0, 0, 0, 0.8);
+    -webkit-text-stroke: 0.0px rgb(0, 0, 0);
+}
+
+.entreeKiff>img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 20px;
+   
+}
+
+
+.ytb{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.videoNul{
+    width: 1px;
+    height: 1px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.quoi{
+    margin-bottom: 30px;
+}
+
+#img4x2{
+    width: 400px;
+    height: 200px;
+    
+
+}
