@@ -501,9 +501,25 @@ a:hover {
     margin-bottom: 30px;
 }
 
+.quoi>img{
+    padding: 4px;
+
+}
+
+
 #img4x2{
     width: 400px;
     height: 200px;
-    
+}
 
+#img3x4{
+    width: 300px;
+    height: 400px;
+
+
+}
+
+#img3x3{
+    width: 300px;
+    height: 300px;
 }
