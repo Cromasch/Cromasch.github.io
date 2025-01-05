@@ -224,6 +224,16 @@ a:hover {
     font-weight: normal;
 }
 
+.soundExperience>h5{
+    font-family: "Liberation Sans", Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(219, 110, 8);
+    -webkit-text-stroke: 0.5px black;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
 .soundExperience>img{
     width: 20%;
     height: 20%;
@@ -508,7 +518,7 @@ a:hover {
 
 
 #img4x2{
-    width: 400px;
+    width: 350px;
     height: 200px;
 }
 
