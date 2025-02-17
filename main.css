@@ -548,6 +548,7 @@ a:hover {
     line-height: 75px;
     font-size: 50px;
     cursor: pointer;
+    text-align:center;
 }
 #gameContainer{
     font-family: "Helvetica";
