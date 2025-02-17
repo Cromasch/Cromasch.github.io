@@ -554,10 +554,6 @@ a:hover {
     
 }
 
-.cell{
-    text-align: center;
-}
-
 #cellContainer{
     display:grid;
     grid-template-columns: repeat(3, auto);
