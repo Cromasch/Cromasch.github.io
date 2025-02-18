@@ -28,7 +28,7 @@ initializedGame();
 function initializedGame(){
     cells.forEach(cell => cell.addEventListener("click", cellClicked));
     restartBtn.addEventListener("click", restartGame);
-    statusText.textContent = `tour des ${currentPlayer}`;
+    statusText.textContent = `${currentPlayer}`;
     running = true;
 }
 
@@ -52,7 +52,7 @@ function updateCell(cell, index){
 
 function changePlayer(){
     currentPlayer = (currentPlayer == "X") ? "O" : "X";
-    statusText.textContent = `tour des ${currentPlayer}`;
+    statusText.textContent = `${currentPlayer}`;
 
 
 }
@@ -76,7 +76,12 @@ function checkWinner(){
     }
 
     if(roundWon){
-        statusText.textContent = `${currentPlayer} gagnent !`;
+        if(currentPlayer == "X"){ 
+            statusText.textContent = `${currentPlayer} ✌ `;
+
+        }else if(currentPlayer == "O"){
+            statusText.textContent = `${currentPlayer} ✌ `;
+        }
         //console.log(condition)
         //const cell1 = condition[1]
         //cellPos1 = document.querySelectorAll(cellIndex = cell1);
@@ -87,7 +92,7 @@ function checkWinner(){
         running = false;
     }
     else if(!options.includes("")){
-        statusText.textContent = `égalité !`;
+        statusText.textContent = `=`;
         running = false;
     }
     else{
@@ -101,7 +106,7 @@ function checkWinner(){
 function restartGame(){
     currentPlayer = 'X';
     options = ["","","","","","","","",""];
-    statusText.textContent = `tour des ${currentPlayer}`;
+    statusText.textContent = `${currentPlayer}`;
     cells.forEach(cell => cell.textContent = "");
     running = true;
 }

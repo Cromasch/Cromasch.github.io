@@ -551,7 +551,7 @@ a:hover {
     text-align:center;
 }
 #gameContainer{
-    font-family: "Helvetica";
+    font-family: "Liberation Sans", Helvetica, sans-serif;
     
 }
 
@@ -571,6 +571,7 @@ a:hover {
 }
 
 #statusText{
+    font-family: "Liberation Sans", Helvetica, sans-serif;
     font-size: 3rem;
     left: 6.6rem; top: 28.7rem;
     position:absolute;
