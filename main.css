@@ -287,16 +287,26 @@ a:hover {
 }
 
 .AtTheEnd>h1{
-    font-family: "Georgia", Helvetica, sans-serif;
-    width: 46vw;
+    font-family: "Arial", Helvetica, sans-serif;
     letter-spacing: 0.8vw;
-    font-weight: 700;
-
+    font-weight: 50;    
+    width:70vw;
+    letter-spacing:1.5vw;
     color: white;
-    font-size: 20vh;
+    font-size: 16vh;
+    margin-left: 7vw;
+    
+}
+
+.AtTheEnd>p{
+    font-family: "Arial", Helvetica, sans-serif;
+    
+    margin-top:-5vw;
+    font-weight: 100;
+    letter-spacing:0.1vw;
+    color: white;
     margin-left: 7vw;
     padding: 3vw;
-    border: dashed 4px rgb(255, 255, 255) ;
 
 
 
@@ -305,8 +315,6 @@ a:hover {
 
 
 }
-
-
 
 
 
