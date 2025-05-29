@@ -304,10 +304,10 @@ text-align:justify;
 
 .AtTheEnd>h1{
     font-family: "Arial", Helvetica, sans-serif;
-    letter-spacing: 0.8vw;
-    font-weight: 50;    
+    font-weight: 50;
+    line-height: 90%;    
     width:70vw;
-    letter-spacing:1.5vw;
+    letter-spacing:10%;
     color: white;
     font-size: 16vh;
     margin-left: 7vw;
@@ -600,4 +600,22 @@ text-align:justify;
     left: 6.6rem; top: 28.7rem;
     position:absolute;
     
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+footer{
+    margin-bottom: 10%;
+    margin-left: 70%;
+    margin-top: 20%;
+
+
+}
+
+footer>p{
+    font-family: "Liberation Sans", Helvetica, sans-serif;
+    border: 1px  dashed  black;
+    width: fit-content;
+    padding: 3px;
+
 }
