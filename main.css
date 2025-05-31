@@ -22,6 +22,7 @@ a:hover {
     text-decoration: none;
 }
 
+/*
 .rotateText{
     margin-left: -300px;
     transform: rotate(-90deg);
@@ -32,6 +33,7 @@ a:hover {
     
 
 }
+*/
 
 .textDroite{
     text-align: justify;
@@ -45,23 +47,20 @@ a:hover {
 .hautDePage>h1{
     font-family: "Liberation Sans", Helvetica, sans-serif;
     color: white;
-    -webkit-text-stroke: 1px black;
     text-align: justify;
-    margin-left: 685px;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    font-size: 65px;
+    margin-left: 54%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 430%;
 }
 
 .hautDePage>h2{
     font-family: "Liberation Sans", Helvetica, sans-serif;
     color: white;
     -webkit-text-stroke: 1px black;
-    text-align: justify;
-    margin-left: 98px;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    font-size: 34px;
+    margin-left: 8%;
+    margin-bottom: 3%;
+    font-size: 220%;
     text-decoration: underline;
     text-decoration-color:black;
     text-decoration-thickness: 1px;
@@ -72,7 +71,7 @@ a:hover {
     color: white;
     -webkit-text-stroke: 1px black;
     direction:rtl;
-text-align:justify;
+    text-align:justify;
     margin-left: 450px;
     margin-right:312px;
     letter-spacing: 1px;
