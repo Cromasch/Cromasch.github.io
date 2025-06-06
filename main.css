@@ -1,3 +1,5 @@
+
+
 .indexLove {
     background-image: url(images/fondIndex.png);
     background-size: 1280px 2480px;
@@ -47,6 +49,7 @@ a:hover {
 .hautDePage>h1{
     font-family: "Liberation Sans", Helvetica, sans-serif;
     color: white;
+    -webkit-text-stroke: 1px black;
     text-align: justify;
     margin-left: 54%;
     margin-top: 5%;
@@ -301,27 +304,33 @@ a:hover {
 
 }
 
+.AtTheEnd{
+    background-color: black;
+    margin-top: 10%;
+    
+
+
+
+
+}
+
 .AtTheEnd>h1{
-    font-family: "Arial", Helvetica, sans-serif;
-    font-weight: 50;
-    line-height: 90%;    
-    width:70vw;
-    letter-spacing:10%;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-bottom: 75px;
     color: white;
-    font-size: 16vh;
-    margin-left: 7vw;
     
 }
 
 .AtTheEnd>p{
     font-family: "Arial", Helvetica, sans-serif;
     
-    margin-top:-5vw;
+    
     font-weight: 100;
     letter-spacing:0.1vw;
     color: white;
-    margin-left: 7vw;
-    padding: 3vw;
+    
+    
 
 
 
