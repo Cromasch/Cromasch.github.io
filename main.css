@@ -85,6 +85,17 @@ a:hover {
     
 }
 
+.hautDePage>h4{
+    font-family: "Liberation Sans", Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke: 0.08vw black;
+    margin-left: 8%;
+    margin-bottom: 3%;
+    font-size: 220%;
+    text-decoration: underline;
+    text-decoration-color:rgb(255, 255, 255);
+    text-decoration-thickness: 1px;
+}
 
 .header1{
     margin-right: 50px;
