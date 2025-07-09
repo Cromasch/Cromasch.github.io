@@ -132,6 +132,17 @@ a:hover {
 
 }
 
+/*.index{
+    background-image: url('https://web.archive.org/web/20091027073541/http://www.geocities.com/troop_260/Graphics/stormwrain1sy.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}*/
+
 /*-------------------------------------------------------------------------------------*/
 
 
@@ -174,9 +185,16 @@ a:hover {
 
 .entreeJournal>img {
     width: 11%;
-    height: 11%;
-
 }
+
+
+@media screen and (width < 1000px),
+print {
+    .entreeJournal>img {
+        width: 40%;
+    }
+}
+
 
 .pageBase {
     padding-left: 8%;
