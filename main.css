@@ -193,6 +193,10 @@ print {
     .entreeJournal>img {
         width: 40%;
     }
+
+    .entreeJournal {
+        margin-bottom: 5%;
+    }
 }
 
 
