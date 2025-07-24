@@ -95,6 +95,27 @@ a:hover {
     text-decoration: underline;
     text-decoration-color: rgb(255, 255, 255);
     text-decoration-thickness: 1px;
+
+}
+
+
+.hautDePage>h5 {
+    font-family: "Arial", Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    opacity: 40%;
+    margin-top: 6%;
+    margin-left: 44%;
+    margin-bottom: 10%;
+    font-size: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+@media screen and (width < 1000px),
+print {
+    .hautDePage>h5 {
+        color: rgb(0, 0, 0);
+    }
 }
 
 .header1 {
